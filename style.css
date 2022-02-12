@@ -1,0 +1,117 @@
+body{
+  background-image: url(./img/fondoGreen.jpg)
+}
+
+header {
+  margin-top: 3%;
+  margin-left: 2%;
+}
+
+.titulo {
+  padding: 10px;
+  width: 50vw;
+  margin: auto;
+  color:white;
+}
+
+.btn {
+  border: 0;
+  color: rgb(36, 70, 45);
+  font-weight: bold;
+  background-color: rgb(241, 180, 105);
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 0.5em;
+}
+.btn:hover {
+  background-color: rgb(253, 210, 158);
+}
+
+.btnWord {
+  border: 0;
+  color: rgb(36, 70, 45);
+  font-weight: bold;
+  background-color: rgb(241, 180, 105);
+  padding: 10px;
+  margin-top: 18px;
+  margin-bottom: 10px;
+  border-radius: 0.5em;
+}
+.btnWord:hover {
+  background-color: rgb(253, 210, 158);
+}
+
+.btnSave {
+  border: 0;
+  color: rgb(36, 70, 45);
+  font-weight: bold;
+  background-color: rgb(241, 180, 105);
+  padding: 10px;
+  margin-top: 18px;
+  margin-bottom: 10px;
+  border-radius: 0.5em;
+}
+.btnSave:hover {
+  background-color: rgb(253, 210, 158);
+}
+
+.btnCancel{
+  border: 0;
+  color: rgb(36, 70, 45);
+  font-weight: bold;
+  background-color: rgb(241, 180, 105);
+  padding: 10px;
+  margin-top: 18px;
+  margin-bottom: 10px;
+  border-radius: 0.5em;
+} 
+.btnCancel:hover {
+  background-color: rgb(253, 210, 158);
+}
+
+.btnPlay{
+  border: 0;
+  color: rgb(36, 70, 45);
+  font-weight: bold;
+  background-color: rgb(241, 180, 105);
+  padding: 10px;
+  margin-top: 18px;
+  margin-bottom: 10px;
+  border-radius: 0.5em;
+}
+.btnPlay:hover {
+  background-color: rgb(253, 210, 158);
+}
+
+.btnLeft{
+  border: 0;
+  color: rgb(36, 70, 45);
+  font-weight: bold;
+  background-color: rgb(241, 180, 105);
+  padding: 10px;
+  margin-top: 18px;
+  margin-bottom: 10px;
+  border-radius: 0.5em;
+}
+.btnLeft:hover {
+  background-color: rgb(253, 210, 158);
+}
+
+.text-input {
+  border-radius: 0.5em;
+  border: 1px solid rgb(241, 180, 105);
+  display: block;
+  padding: 0.5em;
+  width: 30%;
+  height: 50px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+footer {
+  padding: 20px;
+  width: 40vw;
+  margin: auto;
+  color: white;
+}

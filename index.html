@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>HangMan Game</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <header>
+          <img src="./img/logo.png" alt="Alura">
+      </header>
+      <!-- Inicio -->
+      <div id="inicio" class="caja" style="text-align: center; margin: 50px 0px">
+        <h1 class="titulo">Ahorcado</h1>
+          <div>
+            <button class="btn" id="iniciar-juego">INICIAR JUEGO</button>
+          </div>
+          <div>
+            <button class="btnWord" id="nueva-palabra">AGREGAR PALABRA</button>
+          </div>
+      </div>
+    <div >
+      
+      <!-- Agregar Palabra -->
+      <div id="palabra" class="cajaIDos" style="text-align: center">
+        <div>
+          <input
+          class="text-input"
+          type="text"
+          id="input-nueva-palabra"
+          placeholder="Escriba una nueva palabra"
+        />
+        </div>
+        <div>
+            <button class="btnSave" id="guardar">GUARDAR</button>
+            <button class="btnCancel" id="cancelar">CANCELAR</button>
+        </div>
+    </div>
+      
+    <!-- Juego -->
+    <div id="juego" class="cajaITres" style="text-align: center">
+        <div>
+            <canvas id="ahorcado" height="400px" width="800px"></canvas>
+        </div>
+        <div>
+            <button class="btnPlay" id="nuevo-juego">JUEGA DENUEVO</button>
+            <button class="btnLeft" id="desistir">ABANDONAR</button>
+        </div>
+   </main>
+
+  <footer>
+    <div>
+        <p>Create by:
+            <a href="https://github.com/EstefaniConislla">
+                <img src="" alt="GitHub" class="redesSociales">
+            </a>
+            <a href="https://www.linkedin.com/in/yulianaconisllaatuncar/">
+                <img src="" alt="LinkedIn" class="redesSociales">
+            </a>
+        </p>
+    </div>
+</footer>
+
+    <script type="text/javascript" src="canvas.js"></script>
+    <script type="text/javascript" src="ahorcado.js"></script>
+   
+  </body>
+</html>
