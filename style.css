@@ -153,3 +153,19 @@ footer {
 .redes {
   width: 15px;
 }
+
+input {
+  background-color: transparent;
+  border: none;
+  font-family: 'Inter', sans-serif;
+  color: #FFFF;
+  font-size: x-large;
+  text-transform: uppercase;
+}
+
+input::placeholder {
+  font-family: 'Inter', sans-serif;
+  color: white;
+  font-size: x-large;
+  text-transform: none;
+}
